@@ -14,7 +14,9 @@ class DiretorSeeder extends Seeder
     public function run(): void
     {
         DB::table('diretores')->insert(
-            ['nome'=>"Andrew Adamson",'foto'=>"",'descricao'=>"",'nascimento'=>"",'nacionalidade_ID'=>3],
+            [
+                ['nome'=>"Andrew Adamson",'foto'=>"",'descricao'=>"",'nascimento'=>"1996-12-01",'nacionalidade_id'=>3],
+            ]
         );
     }
 }

@@ -14,7 +14,9 @@ class ProdutoraSeeder extends Seeder
     public function run(): void
     {
          DB::table('produtoras')->insert(
-            ['nome'=>"DreamWorks"],
+            [
+                ['nome'=>"DreamWorks"],
+            ]
         );
     }
 }

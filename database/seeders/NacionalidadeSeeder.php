@@ -14,9 +14,11 @@ class NacionalidadeSeeder extends Seeder
     public function run(): void
     {
         DB::table('nacionalidades')->insert(
-            ['nome'=>"Brasileiro"],
-            ['nome'=>"Estadunidense"],
-            ['nome'=>"Neozelandês"],
+            [
+                ['nome'=>"Brasileiro"],
+                ['nome'=>"Estadunidense"],
+                ['nome'=>"Neozelandês"],
+            ]
         );
     }
 }

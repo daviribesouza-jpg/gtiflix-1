@@ -48,3 +48,8 @@ Route::get('/nacionalidades', function() {
     $minhaVariavel = Nacionalidade::all();
     dd($minhaVariavel);
 });
+
+Route::get('/lista-filmes', function() {
+    $filmes = Filme::all();
+    return view('lista-filmes', compact('filmes'));
+});

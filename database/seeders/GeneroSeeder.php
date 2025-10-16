@@ -15,11 +15,13 @@ class GeneroSeeder extends Seeder
     public function run(): void
     {
         DB::table('generos')->insert(
-            ['nome'=>"Ação"],
-            ['nome'=>"Comédia"],
-            ['nome'=>"Romance"],
-            ['nome'=>"Animação"],
-            ['nome'=>"Ficção Científica"],
+            [
+                ['nome'=>"Ação"],
+                ['nome'=>"Comédia"],
+                ['nome'=>"Romance"],
+                ['nome'=>"Animação"],
+                ['nome'=>"Ficção Científica"],
+            ]
         );
 
     }
