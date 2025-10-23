@@ -22,7 +22,7 @@
         </div>
         <div class="p-4 md:p-6">
             <span class="block mb-1 text-xs font-semibold uppercase text-blue-600">
-            Atlassian API
+            Teste
             </span>
             <h3 class="text-xl font-semibold text-gray-800">
                 {{$filme->nome}}
